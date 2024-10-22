@@ -9,26 +9,24 @@ const testimonials = [
       "I appreciate the emphasis on safety in this martial arts course. The instructors are careful to ensure that students are trained in a safe environment and that they have the proper protective gear. As a coach, I feel confident that my students are in good hands.",
     author: "John McMiller",
     title: "Kyokushinkai Karate Champion",
-    image:
-      "/about-us/image2.jpg",
+    image: "/about-us/image2.jpg",
   },
   {
     quote:
       "I have been coaching for many years, and I can honestly say that this martial arts course is one of the best I have seen. The curriculum is well-structured, and the techniques taught are effective and applicable in real-world situations.",
     author: "Jane Doe",
     title: "Martial Arts Enthusiast",
-    image:
-      "/about-us/image3.jpg",
+    image: "/about-us/image3.jpg",
   },
   {
     quote:
       "The instructors in this martial arts course are exceptional. They are knowledgeable, patient, and dedicated to helping their students succeed. They provide constructive feedback and ensure that each student gets individual attention.",
     author: "Alice Smith",
     title: "Self-Defense Advocate",
-    image:
-      "/about-us/image4.jpg",
+    image: "/about-us/image4.jpg",
   },
 ];
+
 
 const AboutUs = () => {
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
@@ -199,7 +197,7 @@ const AboutUs = () => {
                     }`}
                   >
                     <p className="text-white text-xl md:text-2xl">
-                      "{testimonial.quote}"
+                      &quot;{testimonial.quote}&quot;
                     </p>
                     <div className="mt-8">
                       <h6 className="text-tertiary text-lg md:text-2xl">
