@@ -90,7 +90,13 @@ const Footer = () => {
               <div className="md:mt-2">
                 Developed by
                 <Link
-                  href="https://www.instagram.com/your_ig_id"
+                  href="https://webtechstudio.site/"
+                  className="hover:text-tertiary ml-1"
+                >
+                  Web Tech Studio
+                </Link>
+                <Link
+                  href="https://www.instagram.com/mr.damager/"
                   className="hover:text-tertiary ml-1"
                 >
                   mr.damager/Arpit Gupta
